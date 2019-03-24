@@ -77,7 +77,6 @@ print(common_elems(a, b))
 def bulls_cows():
     x = randint(1000, 9999)
     x = str(x)
-    print(x)
     print('Добро пожаловать!\nВведите 4-х значное число')
     y = input()
     while x!=y:
